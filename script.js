@@ -4,7 +4,7 @@
 //         return (
 //             <section>
 //                 {/* kommentar */}
-//                 <h1>Hello World</h1>
+//                 <h1 class="hejhej">Hello World</h1>
 //                 <p>Jag heter Maja</p>
 //                 <form>
 //                     <input placeholder="text" />
