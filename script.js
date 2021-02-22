@@ -1,4 +1,18 @@
+class Goodbye extends React.Component {
+    render() {
+        return (
+            <h1>Good bye!</h1>
+        )
+    }
+};
 
+class Hej extends React.Component {
+    render() {
+        return (
+            <h1>Hej</h1>
+        )
+    }
+};
 
 class Hello extends React.Component {
     constructor() {
@@ -17,8 +31,10 @@ class Hello extends React.Component {
                 <form>
                     <input placeholder="text" />
                 </form>
+                <Goodbye />
+                <Hej />
             </section>
         )
     }
-}
+};
 ReactDOM.render(<Hello />, document.getElementById('app'));
